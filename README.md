@@ -1,6 +1,6 @@
 ## Just a page with a countdown
 
-![example screenshot](http://url/to/img.png)
+![example screenshot](https://raw.githubusercontent.com/raspo/icantwait/master/example.png)
 
 To specify a different date, edit the **script.js** file.
 
