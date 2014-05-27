@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JS -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>I can't wait</title>
+</head>
+<body>
+    <div class="overlay">
+
+        <header>
+            <h1>I can't wait</h1>
+        </header>
+
+        <section class="main">
+            <ul class="countdown">
+                <li>
+                    <div class="fragment countdownEl" data-bind="days"></div>
+                    <div class="label">Days</div>
+                </li>
+                <li class="separator">:</li>
+                <li>
+                    <div class="fragment countdownEl" data-bind="hours"></div>
+                    <div class="label">Hours</div>
+                </li>
+                <li class="separator">:</li>
+                <li>
+                    <div class="fragment countdownEl" data-bind="minutes"></div>
+                    <div class="label">Minutes</div>
+                </li>
+                <li class="separator">:</li>
+                <li>
+                    <div class="fragment countdownEl" data-bind="seconds"></div>
+                    <div class="label">Seconds</div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
